@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Dobby"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Dobby\;CMake Files\Dobby\cmake\;CMake Files\Dobby\external\;CMake Files\Dobby\external\misc-helper\;CMake Files\Dobby\external\logging\;CMake Files\Dobby\external\xnucxx\;CMake Files\Dobby\builtin-plugin\;CMake Files\Dobby\builtin-plugin\GlobalOffsetTableHook\;CMake Files\Dobby\builtin-plugin\SymbolResolver\;CMake Files\Dobby\builtin-plugin\Dyld2HideLibrary\;CMake Files\Dobby\builtin-plugin\ObjcRuntimeHook\;CMake Files\Dobby\example\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DobbyX">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/DobbyX.framework/DobbyX" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 DobbyX"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DobbyX/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/DobbyX.framework/DobbyX" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 DobbyX/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dobby">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/libdobby.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 dobby"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dobby/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/libdobby.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 dobby/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="misc_helper">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/libmisc_helper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 misc_helper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="misc_helper/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/libmisc_helper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 misc_helper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logging">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/liblogging.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 logging"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logging/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/liblogging.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 logging/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xnucxx">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/libxnucxx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 xnucxx"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xnucxx/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/libxnucxx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 xnucxx/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_offset_table_hook">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/libglobal_offset_table_hook.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 global_offset_table_hook"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="global_offset_table_hook/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/libglobal_offset_table_hook.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 global_offset_table_hook/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="symbol_resolver">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/libsymbol_resolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 symbol_resolver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="symbol_resolver/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/libsymbol_resolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 symbol_resolver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyld2_hide_library">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/libdyld2_hide_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 dyld2_hide_library"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dyld2_hide_library/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/libdyld2_hide_library.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 dyld2_hide_library/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="objc_runtime_hook">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/libobjc_runtime_hook.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 objc_runtime_hook"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="objc_runtime_hook/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/libobjc_runtime_hook.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 objc_runtime_hook/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darwin_example">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/darwin_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 darwin_example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="darwin_example/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/darwin_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-DDETOURS_X64"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 darwin_example/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/Dyld2HideLibrary/dyld2_hide_library.cc">
+			<Option target="dyld2_hide_library"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/Dyld2HideLibrary/dyld2_hide_library.h">
+			<Option target="dyld2_hide_library"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook/global_offset_table_hook.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="global_offset_table_hook"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook/global_offset_table_hook.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="global_offset_table_hook"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/ObjcRuntimeHook/objc_runtime_hook.h">
+			<Option target="objc_runtime_hook"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/ObjcRuntimeHook/objc_runtime_hook.mm">
+			<Option target="objc_runtime_hook"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/macho/dobby_symbol_resolver.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="symbol_resolver"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/macho/dyld_shared_cache_symbol_table_iterator.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="symbol_resolver"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/example/darwin_common_api.cc">
+			<Option target="darwin_example"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/example/main.cc">
+			<Option target="darwin_example"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/cxxlogging.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="logging"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/logging.c">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="logging"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/async_logger.cc">
+			<Option target="misc_helper"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/pthread_helper.cc">
+			<Option target="misc_helper"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/pthread_helper.h">
+			<Option target="misc_helper"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/variable_cache.c">
+			<Option target="misc_helper"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteCollection.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteIterator.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteMemOpt.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteMutableArray.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteMutableBuffer.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteObject.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/include/dobby.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/arm/ARMInstructionRelocation.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/arm/ARMInstructionRelocation.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/arm64/ARM64InstructionRelocation.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/arm64/ARM64InstructionRelocation.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x64/X64InstructionRelocation.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x64/X64InstructionRelocation.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x86/X86InstructionRelocation.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x86/X86InstructionRelocation.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x86/x86_insn_decode/x86_insn_decode.c">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x86/x86_insn_decode/x86_insn_decode.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/InterceptRouting.cpp">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/InterceptRouting.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/DynamicBinaryInstrumentExport.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/dynamic-binary-instrument.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/dynamic-binary-instrument.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/intercept_routing_handler.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/intercept_routing_handler.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/FunctionInlineReplace/FunctionInlineReplaceExport.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/FunctionInlineReplace/function-inline-replace.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/FunctionInlineReplace/function-inline-replace.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/RoutingPlugin/NearBranchTrampoline/NeaBranchTrampoline.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/RoutingPlugin/RoutingPlugin.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/RoutingPlugin/RoutingPlugin.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/Interceptor.cpp">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/Interceptor.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/AssemblyCodeBuilder.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/AssemblyCodeBuilder.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/CodeBufferBase.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/CodeBufferBase.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-arm.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-arm.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-arm64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-arm64.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-x64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-x64.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-x86.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-x86.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/MemoryArena.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/MemoryArena.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/NearMemoryArena.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/NearMemoryArena.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ARMAssemblyClosureTrampoline.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure-bridge-arm.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/helper-arm.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/ARM64AssemblyClosureTrampoline.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/closure-bridge-arm64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/helper-arm64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/common-bridge-handler.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/common-bridge-handler.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/X64AssemblyClosureTrampoline.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/closure-bridge-x64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/helper-x64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/Trampoline/arm/trampoline-arm.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/Trampoline/arm64/trampoline-arm64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/Trampoline/x64/trampoline-x64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/Trampoline/x86/trampoline-x86.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/clear-cache-tool-all.c">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/code-patch-tool-darwin.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/code-patch-tool-posix.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/MultiThreadSupport/ThreadSupport.cpp">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/MultiThreadSupport/ThreadSupport.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/PlatformUtil/Darwin/ProcessRuntimeUtility.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+			<Option target="symbol_resolver"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/Thread/PlatformThread.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/Thread/PlatformThread.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/Thread/platform-thread-posix.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/UnifiedInterface/platform-posix.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/CpuFeature.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/CpuFeature.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/CpuRegister.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/CpuRegister.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/x86/cpu-x86.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/x86/cpu-x86.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-arm.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-arm.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-arm64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-arm64.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-ia32.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-ia32.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-x64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-x64.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-arm.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-arm.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-arm64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-arm64.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-ia32.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-ia32.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-x64.cc">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-x64.h">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/dobby.cpp">
+			<Option target="DobbyX"/>
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/AutoFiles.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/Globals.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/Macros.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/Util.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/XcodeGenerator.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/dobby.xcode.source.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\external\misc-helper\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\external\logging\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\external\xnucxx\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\builtin-plugin\GlobalOffsetTableHook\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\builtin-plugin\SymbolResolver\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/Dyld2HideLibrary/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\builtin-plugin\Dyld2HideLibrary\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/ObjcRuntimeHook/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\builtin-plugin\ObjcRuntimeHook\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\example\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

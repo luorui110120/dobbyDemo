@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libobjc_runtime_hook.a  CMakeFiles/objc_runtime_hook.dir/objc_runtime_hook.mm.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libobjc_runtime_hook.a

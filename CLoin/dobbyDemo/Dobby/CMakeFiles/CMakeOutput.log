@@ -1,0 +1,309 @@
+The target system is: Android - 1 - aarch64
+The host system is: Darwin - 17.7.0 - x86_64
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_aac1c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aac1c.dir/build.make CMakeFiles/cmTC_aac1c.dir/build
+Building C object CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o
+/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat   -fPIE   -v -o CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.0/share/cmake/Modules/CMakeCCompilerABI.c
+Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -fdata-sections -coverage-notes-file /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2 -D ANDROID -isysroot /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.0/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 8.0.2 based upon LLVM 8.0.2svn default target x86_64-apple-darwin17.7.0
+ignoring nonexistent directory "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include
+ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include
+ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android
+ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
+End of search list.
+Linking C executable cmTC_aac1c
+/usr/local/Cellar/cmake/3.19.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aac1c.dir/link.txt --verbose=1
+/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections  -v CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o -o cmTC_aac1c 
+Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_aac1c /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+    add: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include]
+    add: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
+    add: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  collapse include dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include]
+  collapse include dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  implicit include dirs: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_aac1c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_aac1c.dir/build.make CMakeFiles/cmTC_aac1c.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa --noexecstack -Wformat   -fPIE   -v -o CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o -c /usr/local/Cellar/cmake/3.19.0/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -fdata-sections -coverage-notes-file /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.gcno -resource-dir /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2 -D ANDROID -isysroot /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdebug-compilation-dir /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fdiagnostics-show-option -o CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o -x c /usr/local/Cellar/cmake/3.19.0/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 8.0.2 based upon LLVM 8.0.2svn default target x86_64-apple-darwin17.7.0]
+  ignore line: [ignoring nonexistent directory "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  ignore line: [ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include]
+  ignore line: [ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_aac1c]
+  ignore line: [/usr/local/Cellar/cmake/3.19.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aac1c.dir/link.txt --verbose=1]
+  ignore line: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa --noexecstack -Wformat   -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a -static-libstdc++ -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments -Wl -z noexecstack -Wl -z relro -Wl -z now -Wl --gc-sections  -v CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o -o cmTC_aac1c ]
+  ignore line: [Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_aac1c /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+    arg [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_aac1c] ==> ignore
+    arg [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_aac1c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o] ==> ignore
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/aarch64-linux-android/lib64;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/aarch64-linux-android/lib;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b59b2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b59b2.dir/build.make CMakeFiles/cmTC_b59b2.dir/build
+Building CXX object CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o
+/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -stdlib=libc++   -fPIE   -v -o CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.19.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -fdata-sections -coverage-notes-file /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2 -D ANDROID -isysroot /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.19.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 8.0.2 based upon LLVM 8.0.2svn default target x86_64-apple-darwin17.7.0
+ignoring nonexistent directory "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1
+ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include
+ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include
+ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android
+ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include
+End of search list.
+Linking CXX executable cmTC_b59b2
+/usr/local/Cellar/cmake/3.19.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b59b2.dir/link.txt --verbose=1
+/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -stdlib=libc++   -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections  -v CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b59b2 
+Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_b59b2 /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+    add: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+    add: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include]
+    add: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
+    add: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+  collapse include dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  collapse include dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include]
+  collapse include dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
+  collapse include dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  implicit include dirs: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_b59b2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b59b2.dir/build.make CMakeFiles/cmTC_b59b2.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa --noexecstack -Wformat -stdlib=libc++   -fPIE   -v -o CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.19.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++" -cc1 -triple aarch64-none-linux-android21 -emit-obj -mrelax-all -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mthread-model posix -mdisable-fp-elim -fmath-errno -masm-verbose -mconstructor-aliases -munwind-tables -fuse-init-array -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -dwarf-column-info -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -target-linker-version 241.9 -v -ffunction-sections -fdata-sections -coverage-notes-file /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp/CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.gcno -resource-dir /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2 -D ANDROID -isysroot /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1 -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include -internal-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include -internal-externc-isystem /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include -Wformat -fdeprecated-macro -fdebug-compilation-dir /Users/smali/tmp/t76/Dobby/CMakeFiles/CMakeTmp -ferror-limit 19 -fmessage-length 0 -stack-protector 2 -fno-signed-char -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fdiagnostics-show-option -o CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/Cellar/cmake/3.19.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 8.0.2 based upon LLVM 8.0.2svn default target x86_64-apple-darwin17.7.0]
+  ignore line: [ignoring nonexistent directory "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1]
+  ignore line: [ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/local/include]
+  ignore line: [ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/include]
+  ignore line: [ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/aarch64-linux-android]
+  ignore line: [ /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_b59b2]
+  ignore line: [/usr/local/Cellar/cmake/3.19.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b59b2.dir/link.txt --verbose=1]
+  ignore line: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa --noexecstack -Wformat -stdlib=libc++   -Wl --exclude-libs libgcc.a -Wl --exclude-libs libatomic.a -static-libstdc++ -Wl --build-id -Wl --warn-shared-textrel -Wl --fatal-warnings -Wl --no-undefined -Qunused-arguments -Wl -z noexecstack -Wl -z relro -Wl -z now -Wl --gc-sections  -v CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b59b2 ]
+  ignore line: [Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie --fix-cortex-a53-843419 --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_b59b2 /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+    arg [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_b59b2] ==> ignore
+    arg [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_b59b2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o] ==> ignore
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;gcc;gcc;dl;c;gcc;gcc;dl]
+  implicit dirs: [/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/8.0.2/lib/linux/aarch64;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/aarch64-linux-android/lib64;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/21;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/aarch64-linux-android/lib;/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+Android (5058415 based on r339409) clang version 8.0.2 (https://android.googlesource.com/toolchain/clang 40173bab62ec746213857d083c0e8b0abb568790) (https://android.googlesource.com/toolchain/llvm 7a6618d69e7e8111e1d49dc9e7813767c5ca756a) (based on LLVM 8.0.2svn)
+Target: x86_64-apple-darwin17.7.0
+Thread model: posix
+InstalledDir: /Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin

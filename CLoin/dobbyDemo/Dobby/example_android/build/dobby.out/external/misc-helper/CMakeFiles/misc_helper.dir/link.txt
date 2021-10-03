@@ -1,0 +1,2 @@
+/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ar qc libmisc_helper.a CMakeFiles/misc_helper.dir/variable_cache.c.o CMakeFiles/misc_helper.dir/async_logger.cc.o CMakeFiles/misc_helper.dir/pthread_helper.cc.o
+/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ranlib libmisc_helper.a

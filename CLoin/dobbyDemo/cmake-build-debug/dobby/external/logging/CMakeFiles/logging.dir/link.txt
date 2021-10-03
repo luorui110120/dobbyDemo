@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc liblogging.a  CMakeFiles/logging.dir/cxxlogging.cc.o CMakeFiles/logging.dir/logging.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib liblogging.a

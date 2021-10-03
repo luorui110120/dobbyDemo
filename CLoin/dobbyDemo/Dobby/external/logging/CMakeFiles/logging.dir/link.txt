@@ -1,0 +1,2 @@
+/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ar qc liblogging.a CMakeFiles/logging.dir/cxxlogging.cc.o CMakeFiles/logging.dir/logging.c.o
+/Users/smali/Library/Android/android-ndk-r19c/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ranlib liblogging.a

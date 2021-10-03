@@ -1,0 +1,2 @@
+rootProject.name='dobbyDemo'
+include ':app'

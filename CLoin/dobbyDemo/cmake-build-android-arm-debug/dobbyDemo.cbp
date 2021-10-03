@@ -1,0 +1,902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="dobbyDemo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Dobby\;CMake Files\Dobby\cmake\;CMake Files\Dobby\external\;CMake Files\Dobby\external\misc-helper\;CMake Files\Dobby\external\logging\;CMake Files\Dobby\external\xnucxx\;CMake Files\Dobby\builtin-plugin\;CMake Files\Dobby\builtin-plugin\SymbolResolver\;CMake Files\Dobby\example\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dobbyDemo">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobbyDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DANDROID_ARCH_ABI"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 dobbyDemo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dobbyDemo/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobbyDemo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DANDROID_ARCH_ABI"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 dobbyDemo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dobby">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/libdobby.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/Makefile&quot;  VERBOSE=1 dobby"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dobby/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/libdobby.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/Makefile&quot;  VERBOSE=1 dobby/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="misc_helper">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/libmisc_helper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 misc_helper"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="misc_helper/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/libmisc_helper.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 misc_helper/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logging">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/liblogging.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 logging"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="logging/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/liblogging.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 logging/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xnucxx">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/libxnucxx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 xnucxx"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xnucxx/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/libxnucxx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 xnucxx/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="symbol_resolver">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/libsymbol_resolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 symbol_resolver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="symbol_resolver/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/libsymbol_resolver.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 symbol_resolver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="android_example">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/android_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/Makefile&quot;  VERBOSE=1 android_example"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="android_example/fast">
+				<Option output="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/android_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DDOBBY_DEBUG"/>
+					<Add option="-DLOGGING_DEBUG"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/include"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source/UserMode"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/logging"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/xnucxx"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./external/misc-helper"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
+					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/Makefile&quot;  VERBOSE=1 android_example/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-android-arm-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/elf/dobby_symbol_resolver.cc">
+			<Option target="dobby"/>
+			<Option target="symbol_resolver"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/example/android_common_api.cc">
+			<Option target="android_example"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/example/main.cc">
+			<Option target="android_example"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/cxxlogging.cc">
+			<Option target="dobby"/>
+			<Option target="logging"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/logging.c">
+			<Option target="dobby"/>
+			<Option target="logging"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/async_logger.cc">
+			<Option target="misc_helper"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/pthread_helper.cc">
+			<Option target="misc_helper"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/pthread_helper.h">
+			<Option target="misc_helper"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/variable_cache.c">
+			<Option target="misc_helper"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteCollection.cc">
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteIterator.cc">
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteMemOpt.cc">
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteMutableArray.cc">
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteMutableBuffer.cc">
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/LiteObject.cc">
+			<Option target="dobby"/>
+			<Option target="xnucxx"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/include/dobby.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/arm/ARMInstructionRelocation.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/arm/ARMInstructionRelocation.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/arm64/ARM64InstructionRelocation.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/arm64/ARM64InstructionRelocation.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x64/X64InstructionRelocation.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x64/X64InstructionRelocation.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x86/X86InstructionRelocation.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x86/X86InstructionRelocation.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x86/x86_insn_decode/x86_insn_decode.c">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InstructionRelocation/x86/x86_insn_decode/x86_insn_decode.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/InterceptRouting.cpp">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/InterceptRouting.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/DynamicBinaryInstrumentExport.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/dynamic-binary-instrument.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/dynamic-binary-instrument.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/intercept_routing_handler.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/DynamicBinaryInstrument/intercept_routing_handler.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/FunctionInlineReplace/FunctionInlineReplaceExport.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/FunctionInlineReplace/function-inline-replace.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/Routing/FunctionInlineReplace/function-inline-replace.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/RoutingPlugin/NearBranchTrampoline/NeaBranchTrampoline.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/RoutingPlugin/RoutingPlugin.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/InterceptRouting/RoutingPlugin/RoutingPlugin.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/Interceptor.cpp">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/Interceptor.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/AssemblyCodeBuilder.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/AssemblyCodeBuilder.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/CodeBufferBase.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/CodeBufferBase.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-arm.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-arm.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-arm64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-arm64.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-x64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-x64.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-x86.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/CodeBuffer/code-buffer-x86.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/MemoryArena.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/MemoryArena.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/NearMemoryArena.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/MemoryAllocator/NearMemoryArena.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/ARMAssemblyClosureTrampoline.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/closure-bridge-arm.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm/helper-arm.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/ARM64AssemblyClosureTrampoline.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/closure-bridge-arm64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/arm64/helper-arm64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/common-bridge-handler.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/common-bridge-handler.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/X64AssemblyClosureTrampoline.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/closure-bridge-x64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/ClosureTrampolineBridge/x64/helper-x64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/Trampoline/arm/trampoline-arm.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/Trampoline/arm64/trampoline-arm64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/Trampoline/x64/trampoline-x64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/TrampolineBridge/Trampoline/x86/trampoline-x86.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/clear-cache-tool-all.c">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/code-patch-tool-posix.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/MultiThreadSupport/ThreadSupport.cpp">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/MultiThreadSupport/ThreadSupport.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/PlatformUtil/Linux/ProcessRuntimeUtility.cc">
+			<Option target="dobby"/>
+			<Option target="symbol_resolver"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/Thread/PlatformThread.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/Thread/PlatformThread.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/Thread/platform-thread-posix.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/UnifiedInterface/platform-posix.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/CpuFeature.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/CpuFeature.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/CpuRegister.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/CpuRegister.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/x86/cpu-x86.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/arch/x86/cpu-x86.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-arm.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-arm.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-arm64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-arm64.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-ia32.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-ia32.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-x64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler-x64.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/assembler/assembler.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-arm.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-arm.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-arm64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-arm64.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-ia32.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-ia32.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-x64.cc">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/core/modules/codegen/codegen-x64.h">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/dobby.cpp">
+			<Option target="dobby"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/main.cpp">
+			<Option target="dobbyDemo"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/AutoFiles.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/Globals.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/Macros.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/Util.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/XcodeGenerator.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/cmake/dobby.xcode.source.cmake">
+			<Option virtualFolder="CMake Files\Dobby\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\external\misc-helper\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\external\logging\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\external\xnucxx\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\builtin-plugin\SymbolResolver\"/>
+		</Unit>
+		<Unit filename="/Users/smali/CLionProjects/dobbyDemo/Dobby/example/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Dobby\example\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

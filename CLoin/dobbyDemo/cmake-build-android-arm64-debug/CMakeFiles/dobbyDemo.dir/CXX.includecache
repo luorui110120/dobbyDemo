@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/smali/CLionProjects/dobbyDemo/Dobby/include/dobby.h
+stdbool.h
+-
+stdint.h
+-
+
+/Users/smali/CLionProjects/dobbyDemo/main.cpp
+iostream
+-
+stdio.h
+-
+dlfcn.h
+-
+Dobby/include/dobby.h
+/Users/smali/CLionProjects/dobbyDemo/Dobby/include/dobby.h
+android/log.h
+-
+
