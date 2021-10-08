@@ -11,70 +11,70 @@
 				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
 				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
 				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
 				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
 				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dobbyDemo">
@@ -85,19 +85,18 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 dobbyDemo"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 dobbyDemo"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dobbyDemo/fast">
@@ -108,19 +107,18 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 dobbyDemo/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 dobbyDemo/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DobbyX">
@@ -133,7 +131,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -147,19 +145,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 DobbyX"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 DobbyX"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="DobbyX/fast">
@@ -172,7 +169,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -186,19 +183,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 DobbyX/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 DobbyX/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dobby">
@@ -211,7 +207,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -226,19 +222,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 dobby"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 dobby"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dobby/fast">
@@ -251,7 +246,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -266,19 +261,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 dobby/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 dobby/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="misc_helper">
@@ -303,19 +297,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 misc_helper"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 misc_helper"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="misc_helper/fast">
@@ -340,19 +333,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/misc-helper/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 misc_helper/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 misc_helper/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/misc-helper/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="logging">
@@ -377,19 +369,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 logging"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 logging"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="logging/fast">
@@ -414,19 +405,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/logging/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 logging/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 logging/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/logging/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xnucxx">
@@ -451,19 +441,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 xnucxx"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 xnucxx"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xnucxx/fast">
@@ -488,19 +477,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/external/xnucxx/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 xnucxx/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 xnucxx/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/external/xnucxx/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="global_offset_table_hook">
@@ -526,19 +514,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 global_offset_table_hook"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 global_offset_table_hook"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="global_offset_table_hook/fast">
@@ -564,19 +551,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 global_offset_table_hook/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 global_offset_table_hook/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/GlobalOffsetTableHook/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="symbol_resolver">
@@ -603,19 +589,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 symbol_resolver"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 symbol_resolver"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="symbol_resolver/fast">
@@ -642,19 +627,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver/."/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 symbol_resolver/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 symbol_resolver/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/SymbolResolver/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dyld2_hide_library">
@@ -667,7 +651,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -681,19 +665,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 dyld2_hide_library"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 dyld2_hide_library"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="dyld2_hide_library/fast">
@@ -706,7 +689,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -720,19 +703,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 dyld2_hide_library/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 dyld2_hide_library/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/Dyld2HideLibrary/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="objc_runtime_hook">
@@ -745,7 +727,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -759,19 +741,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 objc_runtime_hook"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 objc_runtime_hook"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="objc_runtime_hook/fast">
@@ -784,7 +765,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -798,19 +779,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 objc_runtime_hook/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 objc_runtime_hook/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/builtin-plugin/ObjcRuntimeHook/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="darwin_example">
@@ -823,7 +803,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -837,19 +817,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 darwin_example"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 darwin_example"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="darwin_example/fast">
@@ -862,7 +841,7 @@
 					<Add option="-DDOBBY_DEBUG"/>
 					<Add option="-DLOGGING_DEBUG"/>
 					<Add option="-DDETOURS_X64"/>
-					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211003&quot;"/>
+					<Add option="-D__DOBBY_BUILD_VERSION__=&quot;Dobby-20211008&quot;"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/."/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/./source"/>
@@ -876,19 +855,18 @@
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/source/UserMode/ExecMemory/substrated/include"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/GlobalOffsetTableHook"/>
 					<Add directory="/Users/smali/CLionProjects/dobbyDemo/Dobby/builtin-plugin/SymbolResolver"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 darwin_example/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 darwin_example/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/smali/CLionProjects/dobbyDemo/cmake-build-debug/dobby/example/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

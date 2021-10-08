@@ -1,2 +1,0 @@
-/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ar qc libsymbol_resolver.a  CMakeFiles/symbol_resolver.dir/elf/dobby_symbol_resolver.cc.o CMakeFiles/symbol_resolver.dir/__/__/source/UserMode/PlatformUtil/Linux/ProcessRuntimeUtility.cc.o
-/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-ranlib libsymbol_resolver.a

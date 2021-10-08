@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libglobal_offset_table_hook.a  CMakeFiles/global_offset_table_hook.dir/global_offset_table_hook.cc.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libglobal_offset_table_hook.a

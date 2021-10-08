@@ -1,1 +1,0 @@
-/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16  -g  -Wl,--fix-cortex-a8  -Wl,--gc-sections -Wl,-z,nocopyreloc -fPIE -pie CMakeFiles/dobbyDemo.dir/main.cpp.o  -o dobbyDemo  dobby/libdobby.a -llog  -static-libstdc++ -latomic -lm 

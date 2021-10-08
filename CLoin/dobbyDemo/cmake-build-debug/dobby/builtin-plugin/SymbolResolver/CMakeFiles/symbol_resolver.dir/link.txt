@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libsymbol_resolver.a  CMakeFiles/symbol_resolver.dir/macho/dyld_shared_cache_symbol_table_iterator.cc.o CMakeFiles/symbol_resolver.dir/macho/dobby_symbol_resolver.cc.o CMakeFiles/symbol_resolver.dir/__/__/source/UserMode/PlatformUtil/Darwin/ProcessRuntimeUtility.cc.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libsymbol_resolver.a

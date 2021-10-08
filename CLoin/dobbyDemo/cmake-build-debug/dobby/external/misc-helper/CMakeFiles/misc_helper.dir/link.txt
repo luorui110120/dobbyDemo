@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libmisc_helper.a  CMakeFiles/misc_helper.dir/variable_cache.c.o CMakeFiles/misc_helper.dir/async_logger.cc.o CMakeFiles/misc_helper.dir/pthread_helper.cc.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libmisc_helper.a

@@ -1,1 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -stdlib=libc++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/darwin_example.dir/main.cc.o CMakeFiles/darwin_example.dir/darwin_common_api.cc.o  -o darwin_example  ../DobbyX.framework/Versions/A/DobbyX -framework Foundation 

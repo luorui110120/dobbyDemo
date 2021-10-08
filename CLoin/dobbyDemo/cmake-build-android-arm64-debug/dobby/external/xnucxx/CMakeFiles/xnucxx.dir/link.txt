@@ -1,2 +1,0 @@
-/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ar qc libxnucxx.a  CMakeFiles/xnucxx.dir/LiteMemOpt.cc.o CMakeFiles/xnucxx.dir/LiteObject.cc.o CMakeFiles/xnucxx.dir/LiteIterator.cc.o CMakeFiles/xnucxx.dir/LiteCollection.cc.o CMakeFiles/xnucxx.dir/LiteMutableBuffer.cc.o CMakeFiles/xnucxx.dir/LiteMutableArray.cc.o
-/Users/smali/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ranlib libxnucxx.a
