@@ -1,2 +1,11 @@
 AS3.6/dobbyDemo/app/build/*
 AS3.6/dobbyDemo/.idea/*
+CLoin/dobbyDemo/cmake-build-debug/dobbyDemo
+CLoin/dobbyDemo/cmake-build-debug/CMakeFiles/*
+CLoin/dobbyDemo/cmake-build-debug/dobby/*
+CLoin/dobbyDemo/cmake-build-android-arm64-debug/dobbyDemo
+CLoin/dobbyDemo/cmake-build-android-arm64-debug/CMakeFiles/*
+CLoin/dobbyDemo/cmake-build-android-arm64-debug/dobby/*
+CLoin/dobbyDemo/cmake-build-android-arm-debug/dobbyDemo
+CLoin/dobbyDemo/cmake-build-android-arm-debug/CMakeFiles/*
+CLoin/dobbyDemo/cmake-build-android-arm-debug/dobby/*
