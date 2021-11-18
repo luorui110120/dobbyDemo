@@ -56,52 +56,6 @@ CMAKE_BINARY_DIR = /Users/smali/CLionProjects/dobbyDemo/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
-.PHONY : install
-
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -169,136 +123,6 @@ dobbyDemo/fast:
 	$(MAKE) -f CMakeFiles/dobbyDemo.dir/build.make CMakeFiles/dobbyDemo.dir/build
 .PHONY : dobbyDemo/fast
 
-#=============================================================================
-# Target rules for targets named DobbyX
-
-# Build rule for target.
-DobbyX: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 DobbyX
-.PHONY : DobbyX
-
-# fast build rule for target.
-DobbyX/fast:
-	$(MAKE) -f dobby/CMakeFiles/DobbyX.dir/build.make dobby/CMakeFiles/DobbyX.dir/build
-.PHONY : DobbyX/fast
-
-#=============================================================================
-# Target rules for targets named dobby
-
-# Build rule for target.
-dobby: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dobby
-.PHONY : dobby
-
-# fast build rule for target.
-dobby/fast:
-	$(MAKE) -f dobby/CMakeFiles/dobby.dir/build.make dobby/CMakeFiles/dobby.dir/build
-.PHONY : dobby/fast
-
-#=============================================================================
-# Target rules for targets named misc_helper
-
-# Build rule for target.
-misc_helper: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 misc_helper
-.PHONY : misc_helper
-
-# fast build rule for target.
-misc_helper/fast:
-	$(MAKE) -f dobby/external/misc-helper/CMakeFiles/misc_helper.dir/build.make dobby/external/misc-helper/CMakeFiles/misc_helper.dir/build
-.PHONY : misc_helper/fast
-
-#=============================================================================
-# Target rules for targets named logging
-
-# Build rule for target.
-logging: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 logging
-.PHONY : logging
-
-# fast build rule for target.
-logging/fast:
-	$(MAKE) -f dobby/external/logging/CMakeFiles/logging.dir/build.make dobby/external/logging/CMakeFiles/logging.dir/build
-.PHONY : logging/fast
-
-#=============================================================================
-# Target rules for targets named xnucxx
-
-# Build rule for target.
-xnucxx: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 xnucxx
-.PHONY : xnucxx
-
-# fast build rule for target.
-xnucxx/fast:
-	$(MAKE) -f dobby/external/xnucxx/CMakeFiles/xnucxx.dir/build.make dobby/external/xnucxx/CMakeFiles/xnucxx.dir/build
-.PHONY : xnucxx/fast
-
-#=============================================================================
-# Target rules for targets named global_offset_table_hook
-
-# Build rule for target.
-global_offset_table_hook: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 global_offset_table_hook
-.PHONY : global_offset_table_hook
-
-# fast build rule for target.
-global_offset_table_hook/fast:
-	$(MAKE) -f dobby/builtin-plugin/GlobalOffsetTableHook/CMakeFiles/global_offset_table_hook.dir/build.make dobby/builtin-plugin/GlobalOffsetTableHook/CMakeFiles/global_offset_table_hook.dir/build
-.PHONY : global_offset_table_hook/fast
-
-#=============================================================================
-# Target rules for targets named symbol_resolver
-
-# Build rule for target.
-symbol_resolver: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 symbol_resolver
-.PHONY : symbol_resolver
-
-# fast build rule for target.
-symbol_resolver/fast:
-	$(MAKE) -f dobby/builtin-plugin/SymbolResolver/CMakeFiles/symbol_resolver.dir/build.make dobby/builtin-plugin/SymbolResolver/CMakeFiles/symbol_resolver.dir/build
-.PHONY : symbol_resolver/fast
-
-#=============================================================================
-# Target rules for targets named dyld2_hide_library
-
-# Build rule for target.
-dyld2_hide_library: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dyld2_hide_library
-.PHONY : dyld2_hide_library
-
-# fast build rule for target.
-dyld2_hide_library/fast:
-	$(MAKE) -f dobby/builtin-plugin/Dyld2HideLibrary/CMakeFiles/dyld2_hide_library.dir/build.make dobby/builtin-plugin/Dyld2HideLibrary/CMakeFiles/dyld2_hide_library.dir/build
-.PHONY : dyld2_hide_library/fast
-
-#=============================================================================
-# Target rules for targets named objc_runtime_hook
-
-# Build rule for target.
-objc_runtime_hook: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 objc_runtime_hook
-.PHONY : objc_runtime_hook
-
-# fast build rule for target.
-objc_runtime_hook/fast:
-	$(MAKE) -f dobby/builtin-plugin/ObjcRuntimeHook/CMakeFiles/objc_runtime_hook.dir/build.make dobby/builtin-plugin/ObjcRuntimeHook/CMakeFiles/objc_runtime_hook.dir/build
-.PHONY : objc_runtime_hook/fast
-
-#=============================================================================
-# Target rules for targets named darwin_example
-
-# Build rule for target.
-darwin_example: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 darwin_example
-.PHONY : darwin_example
-
-# fast build rule for target.
-darwin_example/fast:
-	$(MAKE) -f dobby/example/CMakeFiles/darwin_example.dir/build.make dobby/example/CMakeFiles/darwin_example.dir/build
-.PHONY : darwin_example/fast
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -332,23 +156,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... install"
-	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... dobbyDemo"
-	@echo "... DobbyX"
-	@echo "... dobby"
-	@echo "... misc_helper"
-	@echo "... logging"
-	@echo "... xnucxx"
-	@echo "... global_offset_table_hook"
-	@echo "... symbol_resolver"
-	@echo "... dyld2_hide_library"
-	@echo "... objc_runtime_hook"
-	@echo "... darwin_example"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

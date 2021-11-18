@@ -15,3 +15,5 @@ Android
 
 CLoin
 
+
+CLoin  想要修改项目名字,  只要修改 dobbyDemo 目录名字, 然后再修改 "CMakeLists.txt" 文件中的  project(dobbyDemo) 变量名字,这个名字要和目录的名字保持一致;

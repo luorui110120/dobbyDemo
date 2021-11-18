@@ -17,15 +17,15 @@ if(CMAKE_ANDROID_ARCH_ABI)
     ###定义一个宏, 方便代码判断
 add_definitions(-DANDROID_ARCH_ABI)
 add_executable(${PROJECT_NAME} main.cpp)
-### //创建 android  so 共享库  "dobbyDemo" 就是编译出来的名字
-#add_library(untitled SHARED main.cpp)
+### //创建 android  so 共享库  "${PROJECT_NAME}" 就是编译出来的名字
+#add_library(${PROJECT_NAME} SHARED main.cpp)
 target_link_libraries(${PROJECT_NAME}
         dobby
         log
         )
 else()
-add_executable(dobbyDemo main.cpp)
-target_link_libraries(dobbyDemo
+add_executable(${PROJECT_NAME} main.cpp)
+target_link_libraries(${PROJECT_NAME}
         dobby
         )
 endif()

@@ -2,29 +2,18 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="dobbyDemo" targetName="symbol_resolver" />
-      <config projectName="dobbyDemo" targetName="global_offset_table_hook" />
-      <config projectName="dobbyDemo" targetName="dyld2_hide_library" />
-      <config projectName="dobbyDemo" targetName="misc_helper" />
-      <config projectName="dobbyDemo" targetName="darwin_example" />
-      <config projectName="dobbyDemo" targetName="dobby" />
-      <config projectName="dobbyDemo" targetName="DobbyX" />
-      <config projectName="dobbyDemo" targetName="xnucxx" />
-      <config projectName="dobbyDemo" targetName="logging" />
-      <config projectName="dobbyDemo" targetName="objc_runtime_hook" />
       <config projectName="dobbyDemo" targetName="dobbyDemo" />
-      <config projectName="dobbyDemo" targetName="android_example" />
     </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
-      <configuration PROFILE_NAME="android-arm-debug" GENERATION_OPTIONS="-DCMAKE_SYSTEM_NAME=Android -DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a -DCMAKE_ANDROID_NDK=/Users/smali/Library/Android/sdk/ndk/21.3.6528147 -DCMAKE_SYSTEM_VERSION=16 -DCMAKE_C_FLAGS=&quot;&quot; -DCMAKE_CXX_FLAGS=&quot;&quot; -DCMAKE_ANDROID_NDK_TOOLCHAIN_VERSION=clang" />
+      <configuration PROFILE_NAME="android-arm-debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_SYSTEM_NAME=Android -DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a -DCMAKE_ANDROID_NDK=/Users/smali/Library/Android/sdk/ndk/21.3.6528147 -DCMAKE_SYSTEM_VERSION=16 -DCMAKE_C_FLAGS=&quot;&quot; -DCMAKE_CXX_FLAGS=&quot;&quot; -DCMAKE_ANDROID_NDK_TOOLCHAIN_VERSION=clang" />
       <configuration PROFILE_NAME="android-arm64-debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_SYSTEM_NAME=Android -DANDROID_NDK=/Users/smali/Library/Android/sdk/ndk/21.3.6528147 -DANDROID_TOOLCHAIN_NAME=aarch64-linux-android-clang3.5 -DCMAKE_TOOLCHAIN_FILE=/Users/smali/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake -DCMAKE_SYSTEM_VERSION=16 -DANDROID_TOOLCHAIN=clang -DCMAKE_C_FLAGS=-fpic -fexceptions -frtti -DCMAKE_CXX_FLAGS=-fpic -fexceptions -frtti -DANDROID_STL=c++_static -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="330789ae-b02e-4797-a7ec-869523a2826c" name="Default Changelist" comment="" />
+    <list default="true" id="17fb0013-67e9-4ec7-b51c-b43cd819becd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,162 +23,39 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1yyfZwKJcBJWqvPEuxdO3gcxHlR" />
+  <component name="ProjectId" id="214cYyIbwy1aefuyX7YyfSgHHbo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
-  </component>
-  <component name="RunManager" selected="CMake Application.dobbyDemo">
-    <configuration name="DobbyX" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="DobbyX" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="android_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="android_example" CONFIG_NAME="android-arm-debug" RUN_TARGET_PROJECT_NAME="dobbyDemo" RUN_TARGET_NAME="android_example">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="darwin_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="darwin_example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dobbyDemo" RUN_TARGET_NAME="darwin_example">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dobby" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="dobby" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="dobbyDemo" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="dobbyDemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="dobbyDemo" RUN_TARGET_NAME="dobbyDemo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dyld2_hide_library" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="dyld2_hide_library" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="global_offset_table_hook" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="global_offset_table_hook" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="logging" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="logging" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="misc_helper" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="misc_helper" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="objc_runtime_hook" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="objc_runtime_hook" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="symbol_resolver" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="symbol_resolver" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="xnucxx" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="dobbyDemo" TARGET_NAME="xnucxx" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="CMake Application.dobbyDemo" />
-      <item itemvalue="CMake Application.dobby" />
-      <item itemvalue="CMake Application.DobbyX" />
-      <item itemvalue="CMake Application.dyld2_hide_library" />
-      <item itemvalue="CMake Application.global_offset_table_hook" />
-      <item itemvalue="CMake Application.objc_runtime_hook" />
-      <item itemvalue="CMake Application.symbol_resolver" />
-      <item itemvalue="CMake Application.android_example" />
-      <item itemvalue="CMake Application.darwin_example" />
-      <item itemvalue="CMake Application.logging" />
-      <item itemvalue="CMake Application.misc_helper" />
-      <item itemvalue="CMake Application.xnucxx" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="330789ae-b02e-4797-a7ec-869523a2826c" name="Default Changelist" comment="" />
-      <created>1633228807876</created>
+      <changelist id="17fb0013-67e9-4ec7-b51c-b43cd819becd" name="Default Changelist" comment="" />
+      <created>1637203851535</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1633228807876</updated>
-      <workItem from="1633228809106" duration="3239000" />
-      <workItem from="1633232662989" duration="763000" />
-      <workItem from="1633704656828" duration="106000" />
-      <workItem from="1633704773558" duration="60000" />
-      <workItem from="1633704848235" duration="17000" />
-      <workItem from="1633704951968" duration="183000" />
-      <workItem from="1633705158147" duration="559000" />
+      <updated>1637203851535</updated>
+      <workItem from="1637203852955" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1225" height="185" key="GridCell.Tab.0.bottom" timestamp="1633705191392">
-      <screen x="0" y="23" width="1440" height="819" />
-    </state>
-    <state width="1225" height="185" key="GridCell.Tab.0.bottom/0.23.1440.819@0.23.1440.819" timestamp="1633705191392" />
-    <state width="1477" height="248" key="GridCell.Tab.0.bottom/0.25.1792.1025@0.25.1792.1025" timestamp="1633704864100" />
-    <state width="1225" height="185" key="GridCell.Tab.0.center" timestamp="1633705191391">
-      <screen x="0" y="23" width="1440" height="819" />
-    </state>
-    <state width="1225" height="185" key="GridCell.Tab.0.center/0.23.1440.819@0.23.1440.819" timestamp="1633705191391" />
-    <state width="1477" height="248" key="GridCell.Tab.0.center/0.25.1792.1025@0.25.1792.1025" timestamp="1633704864100" />
-    <state width="1225" height="185" key="GridCell.Tab.0.left" timestamp="1633705191391">
-      <screen x="0" y="23" width="1440" height="819" />
-    </state>
-    <state width="1225" height="185" key="GridCell.Tab.0.left/0.23.1440.819@0.23.1440.819" timestamp="1633705191391" />
-    <state width="1477" height="248" key="GridCell.Tab.0.left/0.25.1792.1025@0.25.1792.1025" timestamp="1633704864100" />
-    <state width="1225" height="185" key="GridCell.Tab.0.right" timestamp="1633705191392">
-      <screen x="0" y="23" width="1440" height="819" />
-    </state>
-    <state width="1225" height="185" key="GridCell.Tab.0.right/0.23.1440.819@0.23.1440.819" timestamp="1633705191392" />
-    <state width="1477" height="248" key="GridCell.Tab.0.right/0.25.1792.1025@0.25.1792.1025" timestamp="1633704864100" />
-    <state width="1225" height="230" key="GridCell.Tab.1.bottom" timestamp="1633231898247">
-      <screen x="0" y="23" width="1440" height="819" />
-    </state>
-    <state width="1225" height="230" key="GridCell.Tab.1.bottom/0.23.1440.819@0.23.1440.819" timestamp="1633231898247" />
-    <state width="1225" height="230" key="GridCell.Tab.1.center" timestamp="1633231898247">
-      <screen x="0" y="23" width="1440" height="819" />
-    </state>
-    <state width="1225" height="230" key="GridCell.Tab.1.center/0.23.1440.819@0.23.1440.819" timestamp="1633231898247" />
-    <state width="1225" height="230" key="GridCell.Tab.1.left" timestamp="1633231898246">
-      <screen x="0" y="23" width="1440" height="819" />
-    </state>
-    <state width="1225" height="230" key="GridCell.Tab.1.left/0.23.1440.819@0.23.1440.819" timestamp="1633231898246" />
-    <state width="1225" height="230" key="GridCell.Tab.1.right" timestamp="1633231898247">
-      <screen x="0" y="23" width="1440" height="819" />
-    </state>
-    <state width="1225" height="230" key="GridCell.Tab.1.right/0.23.1440.819@0.23.1440.819" timestamp="1633231898247" />
-    <state x="571" y="71" key="SettingsEditor" timestamp="1633704807558">
-      <screen x="0" y="25" width="1792" height="1025" />
-    </state>
-    <state x="179" y="63" key="SettingsEditor/0.23.1440.819@0.23.1440.819" timestamp="1633231893954" />
-    <state x="571" y="71" key="SettingsEditor/0.25.1792.1025@0.25.1792.1025" timestamp="1633704807558" />
   </component>
 </project>
