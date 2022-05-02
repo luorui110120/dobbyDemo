@@ -25,6 +25,7 @@ target_link_libraries(${PROJECT_NAME}
         )
 else()
 add_executable(${PROJECT_NAME} main.cpp)
+#add_library(${PROJECT_NAME} SHARED main.cpp)
 target_link_libraries(${PROJECT_NAME}
         dobby
         )
@@ -43,6 +44,18 @@ elseif(CMAKE_ANDROID_ARCH_ABI STREQUAL "arm64-v8a")
     add_custom_command(TARGET ${PROJECT_NAME}
             POST_BUILD
             COMMAND adb push ${PROJECT_NAME} /data/local/tmp/${PROJECT_NAME}_64
+            VERBATIM
+            )
+
+endif()
+if(PLATFORM STREQUAL "OS64")
+    add_custom_command(TARGET ${PROJECT_NAME}
+            POST_BUILD
+            ###编译 bin 签名
+            COMMAND  ldid -S../ent.xml Release-iphoneos/${PROJECT_NAME}.app/${PROJECT_NAME}
+            ### 编译动态库签名
+            #COMMAND ldid -S../ent.xml Release-iphoneos/lib${PROJECT_NAME}.dylib
+            #COMMAND pwd
             VERBATIM
             )
 endif()

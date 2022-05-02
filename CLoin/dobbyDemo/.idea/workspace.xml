@@ -10,6 +10,7 @@
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
       <configuration PROFILE_NAME="android-arm-debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_SYSTEM_NAME=Android -DCMAKE_ANDROID_ARCH_ABI=armeabi-v7a -DCMAKE_ANDROID_NDK=/Users/smali/Library/Android/sdk/ndk/21.3.6528147 -DCMAKE_SYSTEM_VERSION=16 -DCMAKE_C_FLAGS=&quot;&quot; -DCMAKE_CXX_FLAGS=&quot;&quot; -DCMAKE_ANDROID_NDK_TOOLCHAIN_VERSION=clang" />
       <configuration PROFILE_NAME="android-arm64-debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-DCMAKE_SYSTEM_NAME=Android -DANDROID_NDK=/Users/smali/Library/Android/sdk/ndk/21.3.6528147 -DANDROID_TOOLCHAIN_NAME=aarch64-linux-android-clang3.5 -DCMAKE_TOOLCHAIN_FILE=/Users/smali/Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake -DCMAKE_SYSTEM_VERSION=16 -DANDROID_TOOLCHAIN=clang -DCMAKE_C_FLAGS=-fpic -fexceptions -frtti -DCMAKE_CXX_FLAGS=-fpic -fexceptions -frtti -DANDROID_STL=c++_static -DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" />
+      <configuration PROFILE_NAME="ios-arm64" CONFIG_NAME="Release" GENERATION_OPTIONS=". -G Xcode -DCMAKE_TOOLCHAIN_FILE=./ios.toolchain.cmake -DPLATFORM=OS64 -DENABLE_BITCODE=FALSE" />
     </configurations>
   </component>
   <component name="ChangeListManager">
@@ -22,7 +23,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:ios-arm64" />
   <component name="ProjectId" id="214cYyIbwy1aefuyX7YyfSgHHbo" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
